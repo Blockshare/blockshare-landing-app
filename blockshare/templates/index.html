@@ -1,0 +1,75 @@
+<!--
+  ____  _            _     ____  _                      ___ ___  
+ | __ )| | ___   ___| | __/ ___|| |__   __ _ _ __ ___  |_ _/ _ \ 
+ |  _ \| |/ _ \ / __| |/ /\___ \| '_ \ / _` | '__/ _ \  | | | | |
+ | |_) | | (_) | (__|   <  ___) | | | | (_| | | |  __/_ | | |_| |
+ |____/|_|\___/ \___|_|\_\|____/|_| |_|\__,_|_|  \___(_)___\___/ 
+-->
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Blockshare Technologies - Machine-Payable Software & Automation.">
+  <meta name="author" content="cponeill">
+  <title>Blockshare Technologies - Machine-Payable Software & Automation</title>
+  <link rel="shortcut icon" href="../static/img/block.svg" type="image/x-icon">
+  
+	<link rel="stylesheet" href="../static/css/style.css?v=1.0">
+	<link rel="stylesheet" href="../static/css/bootstrap.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+
+  <link rel="stylesheet" href="../static/css/sparkling-hexagons.css?v=1.0">
+  <script src="../static/js/jquery-1.12.0.min.js"></script>
+  <script src="../static/js/jquery-sparkling-hexagons.js"></script>
+
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />-->
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <img src="../static/img/block.svg" width="75px" height="75px">
+    <a href="#">Blockshare Technologies</a></img>
+      <ul>
+        <li><a href="https://www.request402.com">API's</a></li>
+        <li><a href="#resources">Blog</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+	<div id="sampleContent">
+		<div class="container">
+			<div class="col-md-12">
+				<div class="collapse navbar-collapse navbar-left" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                	</div>
+                </ul>
+            </div>
+
+		<div class="settings">
+			<div id="p_mode"></div>
+			<div id="p_backgroundColor"></div>
+			<div id="p_tileStrokeColor"></div>
+			<div id="p_tileFillColor"></div>
+	    	<div id="p_sparklingColor"></div>
+    	</div>
+    	<div id="sparkling-hexagons-layer"></div>
+	</div>
+</div>
+</div>
+	
+	<script>
+		var bg;
+	  $(document).ready(function(){
+		bg = $('#sparkling-hexagons-layer').sparklingHexagons({
+			// settings
+		});
+	});    
+	</script>
+	<script src="../static/js/script.js"></script>
+	<script src="../static/js/toggle.js"></script>
+</body>
+</html>
